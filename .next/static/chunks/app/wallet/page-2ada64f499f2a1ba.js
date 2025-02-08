@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[597],{1291:function(n,e,t){Promise.resolve().then(t.bind(t,3194))},3194:function(n,e,t){"use strict";t.r(e);var u=t(7437);t(2265),e.default=()=>(0,u.jsx)("div",{children:"wallet"})}},function(n){n.O(0,[971,23,744],function(){return n(n.s=1291)}),_N_E=n.O()}]);
