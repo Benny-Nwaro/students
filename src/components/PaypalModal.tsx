@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import MasterCard from "./MasterCard";
 import AddPaypalAccount from "./AddPaypalAccount";
@@ -69,7 +70,7 @@ const PaypalModal: React.FC = () => {
         <div>
           {/* Render the selected component */}
           {selectedMethod === "Credit/Debit Card" && (
-            <MasterCard onClose={handleClose} />
+            <MasterCard />
           )}
           {selectedMethod === "PayPal" && <AddPaypalAccount onClose={handleClose} />}
         </div>

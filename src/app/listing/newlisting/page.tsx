@@ -1,15 +1,24 @@
-import Sidebar from '../../../components/Sidebar';
-import Header from '../../../components/Header';
-import NewListing from "../../../components/NewListing";
+"use client";
 
-export default function Listing() {
+import React from "react";
+import Sidebar from "@/components/Sidebar";
+import Header from "@/components/Header";
+import NewListing from "@/components/NewListing";
+
+const Listing: React.FC = () => {
+    const handleOpen = (): void => {
+        console.log("opened");
+    };
+
     return (
         <div className="min-h-screen flex">
             <Sidebar />
             <div className="flex-1 flex flex-col bg-gray-100">
-                <Header />
+                <Header onOpen={handleOpen} />
                 <NewListing />
             </div>
         </div>
     );
 };
+
+export default Listing;

@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/finances/earnings/page": "app/finances/earnings/page.js",
+  "/listing/newlisting/page": "app/listing/newlisting/page.js",
+  "/listing/modifylisting/page": "app/listing/modifylisting/page.js",
+  "/listing/page": "app/listing/page.js",
+  "/reward/page": "app/reward/page.js",
+  "/myaccount/page": "app/myaccount/page.js",
+  "/classes/upcomingclasses/page": "app/classes/upcomingclasses/page.js",
+  "/classes/calendar/page": "app/classes/calendar/page.js",
+  "/messages/page": "app/messages/page.js",
+  "/page": "app/page.js",
+  "/workspace/page": "app/workspace/page.js",
+  "/wallet/page": "app/wallet/page.js",
+  "/settings/page": "app/settings/page.js"
+}
