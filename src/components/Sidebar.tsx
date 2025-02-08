@@ -96,7 +96,7 @@ const MenuItem = ({ icon, label, link, active, isLogout }: MenuItemProps) => {
   return (
     <Link href={link} className="w-full">
       <div
-        className={`flex items-center gap-4 px-4 py-5 transition-all duration-300 ${
+        className={`flex items-center gap-4 px-4 py-3 transition-all duration-300 ${
           active
             ? 'bg-[#085DAA] border-l-4 border-white'
             : 'hover:bg-gray-700'
