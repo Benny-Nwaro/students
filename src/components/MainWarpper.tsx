@@ -72,8 +72,6 @@ export default function MainWrapper({ children }: MainWrapperProps) {
           <Drawer isOpen={isOpen} placement="top" onClose={onClose}>
               <DrawerContent>
               <DrawerCloseButton
-                left="1rem"
-                top="1rem"
                 fontSize="24px"
                 p="12px"
                 bg="red.500"
