@@ -147,8 +147,8 @@ const SavedPaymentMethod: React.FC = () => {
 
       {/* Modal for selected payment method */}
       {selectedMethod && (
-        <div className="fixed inset-0  bg-black bg-opacity-50 flex items-center justify-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-md">
+        <div className="fixed inset-0  bg-black bg-opacity-50 flex items-center justify-center ">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-md max-md:mx-5">
             {selectedMethod.modal}
             <button
               className="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600"

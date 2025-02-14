@@ -42,7 +42,7 @@ const PaymentMethods: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-row w-full bg-white shadow-md rounded-lg p-4 ">
+    <div className="flex flex-row w-full h-fit bg-white shadow-md rounded-lg p-4 max-md:flex-col ">
       {/* Payment Methods List */}
       <div className="w-full md:w-1/3">
         {methods.map((method) => (

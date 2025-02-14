@@ -6,13 +6,13 @@ import MainWrapper from '@/components/MainWarpper'
 
 const ClassesPage: React.FC = () => {
   return (
-    <>
+    <div className='max-md:mt-10'>
       <MainWrapper>
         <div className='flex'>
           <Calendar />
         </div>
       </MainWrapper>
-    </>
+    </div>
   )
 }
 

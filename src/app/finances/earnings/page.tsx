@@ -87,7 +87,7 @@ const FinancesPage: React.FC = () => {
       ];
     return (
         <MainWrapper>
-        <div className="flex">
+        <div className="flex max-md:mt-10">
             <div className="flex-1">
                 <div className="p-6">
                     <Earnings methods={paymentMethods} />

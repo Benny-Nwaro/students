@@ -83,7 +83,7 @@ const MessageList: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row h-screen">
+    <div className="flex flex-col lg:flex-row h-fit max-md:flex-col space-y-10">
       {/* Sidebar and Message List */}
       <div className="lg:w-1/3 bg-white shadow-lg p-4 rounded-lg overflow-y-auto">
         <div className="flex items-center justify-between mb-4">

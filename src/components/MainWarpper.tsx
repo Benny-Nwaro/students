@@ -15,6 +15,8 @@ import {
 import { ReactNode } from 'react'
 import Sidebar from './Sidebar'
 import Header from './Header'
+import { IoMdCloseCircle } from "react-icons/io";
+
 
 // Optionally extend Chakra's theme if you need to customize it
 const theme = extendTheme({
@@ -51,7 +53,6 @@ export default function MainWrapper({ children }: MainWrapperProps) {
             gridArea="nav"
             display={{ base: 'none', md: 'block' }}
             h="100vh"
-            bg="gray.800"
             transition="width 0.3s ease"
             width={{ base: '4rem', md: '4rem' }}
             _hover={{
@@ -68,15 +69,22 @@ export default function MainWrapper({ children }: MainWrapperProps) {
           </Box>
 
           {/* Drawer for Mobile Sidebar */}
-          <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
-            <DrawerOverlay>
+          <Drawer isOpen={isOpen} placement="top" onClose={onClose}>
               <DrawerContent>
-                <DrawerCloseButton />
-                <DrawerBody bg="gray.800">
+              <DrawerCloseButton
+                left="1rem"
+                top="1rem"
+                fontSize="24px"
+                p="12px"
+                bg="red.500"
+                color="white"
+                borderRadius="full"
+                _hover={{ bg: "red.700" }}
+              />                
+              <DrawerBody>
                   <Sidebar />
                 </DrawerBody>
               </DrawerContent>
-            </DrawerOverlay>
           </Drawer>
         </Grid>
       </ChakraProvider>

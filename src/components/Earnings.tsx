@@ -115,7 +115,7 @@ const Earnings: React.FC<PaymentMethodProps> = () => {
       
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen max-md:h-fit bg-gray-50 ">
             {/* Header Navigation */}
             <header className="bg-white shadow">
                 <nav className="container mx-auto flex justify-start items-center space-x-10 py-4 px-4">
@@ -135,7 +135,7 @@ const Earnings: React.FC<PaymentMethodProps> = () => {
             {/* Content based on selected tab */}
             {activeTab === 'My wallet' && (
                 <div className="container mx-auto py-10">
-                    <div className="flex flex-col lg:flex-row lg:space-x-10">
+                    <div className="flex flex-col lg:flex-row lg:space-x-10 ">
                         {/* Earnings Summary */}
                         <div className="w-full max-w-xs mx-auto mt-8 p-6 justify-items-center  text-white rounded-3xl shadow-lg">
                             <h2 className="text-xl font-semibold text-black mb-4">Total Balance</h2>

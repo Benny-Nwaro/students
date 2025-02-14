@@ -12,8 +12,8 @@ const HomeworkModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => vo
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
-            <div className="bg-white rounded-lg w-full max-w-3xl p-6">
+        <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50 ">
+            <div className="bg-white rounded-lg w-full max-w-3xl p-6 max-md:mx-5">
                 {/* Modal Header */}
                 <div className="flex justify-between items-center">
                     <h2 className="text-xl font-semibold">Create New Homework</h2>

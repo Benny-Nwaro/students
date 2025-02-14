@@ -40,7 +40,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
   const flag = flags[country];
 
   return (
-    <div className="max-w-md mx-auto bg-white rounded-2xl shadow-lg p-6 font-sans sm:p-8">
+    <div className="max-w-md max-md:w-full mx-auto bg-white rounded-2xl shadow-lg p-6 font-sans sm:p-8">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h3 className="text-lg font-bold text-gray-700 sm:text-xl">

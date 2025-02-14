@@ -8,7 +8,7 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel, Box } from '@chakra-ui/react'
 
 export default function InviteAndPromoTabs() {
   return (
-    <>
+    <div className='max-md:mt-20'>
       <MainWrapper>
         <Box className='p-4 lg:p8 py4'>
           <Tabs variant='unstyled'>
@@ -46,6 +46,7 @@ export default function InviteAndPromoTabs() {
           </Tabs>
         </Box>
       </MainWrapper>
-    </>
+    </div>
+      
   )
 }

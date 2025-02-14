@@ -28,8 +28,7 @@ const MyAccount: React.FC = () => {
 
   return (
     <MainWrapper>
-      {/* Container with responsive flex direction */}
-      <div className="flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 mt-16">
+      <div className="flex flex-col md:flex-row md:space-x-5 space-y-5 md:space-y-0 mt-16 max-md:mt-20">
         {/* Left Column */}
         <div className="flex flex-col space-y-5">
           <ProfileCard

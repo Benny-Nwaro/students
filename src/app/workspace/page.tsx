@@ -17,7 +17,7 @@ const Workspace: React.FC = () => {
 
     return (
         <MainWrapper>
-        <div className="min-h-screen flex flex-col lg:flex-row">
+        <div className="min-h-screen flex flex-col lg:flex-row max-md:mx-5">
         <div className="flex-1 flex flex-col bg-gray-100 mt-16 lg:mt-0">    
             <div className="p-4 md:p-8 lg:p-4">
                 <WorkspaceNav onTabSelect={handleTabSelect} /> 
